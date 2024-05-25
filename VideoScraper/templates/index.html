@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Downloader</title>
+</head>
+<body>
+    <h1>Video Downloader</h1>
+    <form action="/download" method="POST">
+        <label for="url">Video URL:</label>
+        <input type="text" id="url" name="url" required><br><br>
+        <label for="platform">Platform:</label>
+        <select id="platform" name="platform" required>
+            <option value="facebook">Facebook</option>
+            <option value="tiktok">TikTok</option>
+            <option value="instagram">Instagram</option>
+        </select><br><br>
+        <button type="submit">Download Video</button>
+    </form>
+</body>
+</html>
